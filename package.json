@@ -10,7 +10,8 @@
   "types": "index.d.ts",
   "files": [
     "index.js",
-    "index.d.ts"
+    "index.d.ts",
+    "plugins.js"
   ],
   "lint-staged": {
     "*.{js,ts}": "eslint --ext .js,.ts --fix"
