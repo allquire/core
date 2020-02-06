@@ -18,11 +18,19 @@ module.exports = {
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:node/recommended',
-    'plugin:prettier/recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking'
+    'plugin:prettier/recommended'
   ],
-  plugins: ['prettier', '@typescript-eslint'],
-  rules: {}
+  plugins: ['prettier'],
+  rules: {},
+  overrides: [
+    {
+      files: ['*.ts'],
+      plugins: ['@typescript-eslint'],
+      extends: [
+        'plugin:@typescript-eslint/recommended',
+        'plugin:@typescript-eslint/eslint-recommended',
+        'plugin:@typescript-eslint/recommended-requiring-type-checking'
+      ]
+    }
+  ]
 }
