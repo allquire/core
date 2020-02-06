@@ -1,0 +1,19 @@
+{
+  "typeAcquisition": {
+    "include": []
+  },
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "baseUrl": "."
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*",
+    "dist"
+  ],
+  "include": [
+    "packages/**/*"
+  ]
+}

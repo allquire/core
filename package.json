@@ -1,0 +1,57 @@
+{
+  "name": "@allquire/core",
+  "version": "0.1.0",
+  "description": "Require from anywhere.",
+  "scripts": {
+    "lint": "eslint --ext .js --ignore-path .gitignore . --fix",
+    "commit": "git cz"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "lint-staged": {
+    "*.js": "eslint --ext .js --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "author": "Il Harper <afanyiyu@hotmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allquire/core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/allquire/core/issues"
+  },
+  "homepage": "https://github.com/allquire/core#readme",
+  "keywords": [
+    "require",
+    "allquire",
+    "github",
+    "npm",
+    "gitlab"
+  ],
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "git-cz": "^3.2.1",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.3.0",
+    "nodemon": "^1.19.2",
+    "prettier": "^1.18.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/git-cz"
+    }
+  }
+}
