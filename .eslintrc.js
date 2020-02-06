@@ -5,11 +5,12 @@ module.exports = {
     node: true,
     es2020: true
   },
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     sourceType: 'module',
     allowImportExportEverywhere: true,
-    codeFrame: true,
-    ecmaVersion: 2020
+    ecmaVersion: 2020,
+    project: 'tsconfig.json'
   },
   extends: [
     'prettier',
@@ -18,8 +19,11 @@ module.exports = {
     'plugin:import/warnings',
     'plugin:node/recommended',
     'plugin:prettier/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended-requiring-type-checking'
   ],
-  plugins: [],
+  plugins: ['prettier', '@typescript-eslint'],
   rules: {
     strict: 0,
     'prettier/prettier': 'error',
@@ -30,6 +34,15 @@ module.exports = {
     'require-atomic-updates': 0,
     'no-empty': 0,
     'no-empty-source': 0,
-    'import/no-unresolved': 0
-  }
+    'import/no-unresolved': 0,
+    'node/no-unsupported-features/es-syntax': 0
+  },
+  overrides: [
+    {
+      files: ['*.ts'],
+      rules: {
+        'prettier/prettier': 0
+      }
+    }
+  ]
 }
