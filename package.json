@@ -1,7 +1,7 @@
 {
   "name": "@allquire/core",
-  "version": "0.1.1",
-  "description": "Require from anywhere.",
+  "version": "0.1.2",
+  "description": "Require from anywhere & Typescript dynamic require.",
   "scripts": {
     "lint": "eslint --ext .js,.ts --ignore-path .gitignore . --fix",
     "test": "jest",
