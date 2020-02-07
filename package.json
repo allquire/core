@@ -4,6 +4,7 @@
   "description": "Require from anywhere.",
   "scripts": {
     "lint": "eslint --ext .js,.ts --ignore-path .gitignore . --fix",
+    "test": "jest",
     "commit": "git cz"
   },
   "type": "commonjs",
