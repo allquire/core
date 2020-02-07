@@ -1,14 +1,14 @@
 <div align="center">
   <h1><a href="https://allquire.github.io" target="_blank">AllQuire</a></h1>
 
-  <h2>Require from Anywhere & Typescript Dynamic Require</h2>
+  <p style="font-size: 20px;">Require from Anywhere & Typescript Dynamic Require</p>
 
 [![npm](https://nodei.co/npm/@allquire/core.png)](https://npmjs.com/package/@allquire/core)
 
 ![Language](https://img.shields.io/badge/language-javascript-orange?style=flat-square)
 ![I18N](https://img.shields.io/badge/support-javascript%7Ctypescript%7C-brightgreen?style=flat-square)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)
-[![License](https://img.shields.io/github/license/dd-center/obs-streamlink?style=flat-square)](https://github.com/allquire/core/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/allquire/core?style=flat-square)](https://github.com/allquire/core/blob/master/LICENSE)
 
 </div>
 
