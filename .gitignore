@@ -65,7 +65,6 @@ temp.js
 temp/
 # *package-lock.json
 *temp.js*
-*test*.js*
 *dist*.zip
 *node_modules*
 .vscode/*
