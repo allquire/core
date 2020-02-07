@@ -26,5 +26,6 @@ export as namespace allquire;
 export = allquire;
 
 declare function allquire(id: string): Promise<NodeRequire>;
+declare function allquire(id: string, plugin: string): Promise<NodeRequire>;
 
 declare namespace allquire {}
