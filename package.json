@@ -6,6 +6,10 @@
     "lint": "eslint --ext .js,.ts --ignore-path .gitignore . --fix",
     "commit": "git cz"
   },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=13.5.0"
+  },
   "main": "index.js",
   "types": "index.d.ts",
   "files": [
