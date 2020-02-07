@@ -2,8 +2,12 @@
 
 module.exports = async function(id) {
   const plugins = require('./plugins')
-  for (const key of Object.keys(plugins))
-    if (plugins[key].test(id))
-      return await (await require('@allquire/npm')(key))(id)
-  throw new Error()
+  try {
+    for (const key of Object.keys(plugins))
+      if (plugins[key].test(id))
+        return await (await require('@allquire/npm')(key))(id)
+    throw new Error()
+  } catch (error) {
+    return require(id)
+  }
 }
