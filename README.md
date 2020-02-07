@@ -6,7 +6,7 @@
 [![npm](https://nodei.co/npm/@allquire/core.png)](https://npmjs.com/package/@allquire/core)
 
 ![Language](https://img.shields.io/badge/language-javascript-orange?style=flat-square)
-![I18N](https://img.shields.io/badge/support-javascript%7Ctypescript%7C-brightgreen?style=flat-square)
+![I18N](https://img.shields.io/badge/support-javascript%7Ctypescript-brightgreen?style=flat-square)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)
 [![License](https://img.shields.io/github/license/allquire/core?style=flat-square)](https://github.com/allquire/core/blob/master/LICENSE)
 
