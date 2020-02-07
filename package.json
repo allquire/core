@@ -61,5 +61,8 @@
     "commitizen": {
       "path": "./node_modules/git-cz"
     }
+  },
+  "dependencies": {
+    "@allquire/npm": "^0.1.0"
   }
 }
