@@ -14,6 +14,6 @@ module.exports = async function(id, plugin) {
         return await (await require('@allquire/npm')(key))(id)
     throw new Error()
   } catch (error) {
-    return require(id)
+    return await require('@allquire/npm')(id)
   }
 }

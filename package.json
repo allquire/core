@@ -1,6 +1,6 @@
 {
   "name": "@allquire/core",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Require from anywhere & Typescript dynamic require.",
   "scripts": {
     "lint": "eslint --ext .js,.ts --ignore-path .gitignore . --fix",
@@ -68,6 +68,6 @@
     }
   },
   "dependencies": {
-    "@allquire/npm": "^0.1.0"
+    "@allquire/npm": "^0.1.1"
   }
 }
